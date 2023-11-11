@@ -9,4 +9,8 @@ def binSort(data: List[int]):
         
     return bins
 
-print(binSort([1, 5, 2, 0, 3, 4]))
+# Pythonは配列の要素が0から始まるためプログラム要素-1をする
+print(f'ア{binSort([1, 5, 2, 0, 3, 4])}')
+print(f'イ{binSort([2, 0, 3, 3, 4, 1])}')
+print(f'ウ{binSort([3, 1, 0, 4, 5, 1])}')
+print(f'エ{binSort([4, 2, 3, 2, 1, 5])}')
